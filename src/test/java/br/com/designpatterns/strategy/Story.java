@@ -23,7 +23,14 @@ public abstract class Story {
 		public Budget iHaveFiveHundredBudget() {
 			return new Budget(500.0);
 		}
-
+		
+		public Budget iHaveOneThousandAndFiveHundredBudget() {
+			return new Budget(1500.0);
+		}
+		
+		public Budget iHaveThreeThousandAndOne() {
+			return new Budget(3001.0);
+		}
 	}
 
 	public class WhenSteps {
@@ -41,11 +48,19 @@ public abstract class Story {
 		public double calculateIss(Budget budget) {
 			return this.calculator.performsCalculation(budget, new ISS());
 		}
+		
+		public double calculateIccc(Budget budget) {
+			return this.calculator.performsCalculation(budget, new ICCC());
+		}
 	}
 
 	public class ThenSteps {
 		public void theTaxationAmountShouldBe(Budget budget, double taxationValue, double percentageTax) {
 			assertThat(budget.getValue() * percentageTax, equalTo(taxationValue));
+		}
+		
+		public void theTaxationAmountShouldBe(Budget budget, double taxationValue, double percentageTax, double increase) {
+			assertThat((budget.getValue() * percentageTax) + increase, equalTo(taxationValue));
 		}
 	}
 }
