@@ -1,0 +1,8 @@
+br/com/designpatterns/strategy/DiscountCalculator.class
+br/com/designpatterns/strategy/Discount.class
+br/com/designpatterns/strategy/Item.class
+br/com/designpatterns/strategy/DiscountMoreThanFiveHundred.class
+br/com/designpatterns/strategy/ICCC.class
+br/com/designpatterns/strategy/WhithoutDiscount.class
+br/com/designpatterns/strategy/DiscountMoreThanFiveItems.class
+br/com/designpatterns/strategy/DiscountSaleMarried.class
