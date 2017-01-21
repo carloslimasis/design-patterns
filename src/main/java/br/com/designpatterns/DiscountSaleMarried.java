@@ -1,4 +1,4 @@
-package br.com.designpatterns.strategy;
+package br.com.designpatterns;
 
 public class DiscountSaleMarried implements Discount {
 

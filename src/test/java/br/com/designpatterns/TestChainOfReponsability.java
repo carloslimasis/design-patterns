@@ -1,9 +1,13 @@
-package br.com.designpatterns.strategy;
+package br.com.designpatterns;
 
 import static org.junit.Assert.assertThat;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.Test;
+
+import br.com.designpatterns.Budget;
+import br.com.designpatterns.DiscountCalculator;
+import br.com.designpatterns.Item;
 
 public class TestChainOfReponsability {
 

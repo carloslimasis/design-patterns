@@ -1,6 +1,11 @@
-package br.com.designpatterns.strategy;
+package br.com.designpatterns;
 
 import org.junit.Test;
+
+import br.com.designpatterns.Budget;
+import br.com.designpatterns.ICCC;
+import br.com.designpatterns.ICMS;
+import br.com.designpatterns.ISS;
 
 public class TestStrategy extends Story {
 	

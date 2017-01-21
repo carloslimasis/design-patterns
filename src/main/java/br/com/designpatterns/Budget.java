@@ -1,4 +1,4 @@
-package br.com.designpatterns.strategy;
+package br.com.designpatterns;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,9 +1,15 @@
-package br.com.designpatterns.strategy;
+package br.com.designpatterns;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
 
 import org.junit.Before;
+
+import br.com.designpatterns.Budget;
+import br.com.designpatterns.ICCC;
+import br.com.designpatterns.ICMS;
+import br.com.designpatterns.ISS;
+import br.com.designpatterns.TaxationCalculator;
 
 public abstract class Story {
 
